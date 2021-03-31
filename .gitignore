@@ -18,3 +18,7 @@ windows/Makefile.in
 Makefile
 stamp-h1
 libtool
+/HIDHATING
+/DLL1Test
+/.vs
+/windows/.vs/hidapi/v16

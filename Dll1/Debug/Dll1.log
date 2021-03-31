@@ -1,0 +1,4 @@
+﻿  dllmain.cpp
+C:\Users\rom4ster\source\repos\hidapi2\Dll1\dllmain.cpp(187,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rom4ster\source\repos\hidapi2\Dll1\dllmain.cpp(210,20): warning C4018: '<': signed/unsigned mismatch
+  Dll1.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\Debug\Dll1.dll
