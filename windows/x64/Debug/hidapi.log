@@ -1,0 +1,14 @@
+﻿  hid.c
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(638,49): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(681,77): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(735,17): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(751,68): warning C4267: 'function': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(757,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(779,15): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(780,15): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(821,111): warning C4267: 'function': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(834,106): warning C4267: 'function': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(847,111): warning C4267: 'function': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\rom4ster\source\repos\hidapi2\windows\hid.c(860,120): warning C4267: 'function': conversion from 'size_t' to 'ULONG', possible loss of data
+     Creating library C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\hidapi.lib and object C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\hidapi.exp
+  hidapi.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\hidapi.dll

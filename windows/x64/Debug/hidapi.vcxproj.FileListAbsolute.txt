@@ -1,0 +1,2 @@
+C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\hidapi.dll
+C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\hidapi.pdb
