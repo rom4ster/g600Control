@@ -1,8 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (hidtest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  HIDHATING.cpp
-  Generating code
-  0 of 14 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  HIDHATING.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\Release\HIDHATING.exe

@@ -1,5 +1,0 @@
-﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  hid.c
-hid.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-     Creating library C:\Users\rom4ster\source\repos\hidapi2\windows\Debug\hidapi.lib and object C:\Users\rom4ster\source\repos\hidapi2\windows\Debug\hidapi.exp
-  hidapi.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\Debug\hidapi.dll

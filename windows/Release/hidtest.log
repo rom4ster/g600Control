@@ -1,7 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (hidapi.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  hidtest.cpp
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  hidtest.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\Release\hidtest.exe
