@@ -16,7 +16,7 @@
  LICENSE-gpl3.txt, LICENSE-bsd.txt, and LICENSE-orig.txt
  files located at the root of the source distribution.
  These files may also be found in the public source
- code repository located at:
+ code repository located at:  s
         http://github.com/signal11/hidapi .
 ********************************************************/
 
