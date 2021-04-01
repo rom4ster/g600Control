@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\rom4ster\source\repos\hidapi2\Dll1\dllmain.cpp(210,20): warning C4018: '<': signed/unsigned mismatch
+     Creating library C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\Dll1.lib and object C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\Users\rom4ster\source\repos\hidapi2\windows\x64\Debug\Dll1.dll
