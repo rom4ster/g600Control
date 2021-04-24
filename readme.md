@@ -39,6 +39,16 @@ Use more C++ paradigms and refactor whole project
 Look into Integrations if possible with other software (no guarentees)
 Make length getters for types
 
+HOW TO SET UP DEV ENV
+
+1. Add this project to HIDAPI clone
+2. Develop
+
+HOW TO SET UP RELEASE BUILD FOR DEV
+
+1. ADD HIDAPI AND DLL1 as DLLs to VS project
+2. Develop
+
 
 HOW TO USE
 
