@@ -1,4 +1,4 @@
-Are you tired of using LGS? Wish there was a better way to do things, well for those who own a Logitech G600 there just might be. While not a complete replacement this development API and its planned GUI software component will be faster and better than LGS. 
+Are you tired of using LGS for you G600 MMO Gaming Mouse? Wish there was a better way to do things, well for those who own a Logitech G600 there just might be. While not a complete replacement this development API and its planned GUI software component will be faster and better than LGS. 
 
 Also this tool provides a non garbage API for manipulating the mouse. 
 
@@ -38,6 +38,16 @@ Make a better looking readme
 Use more C++ paradigms and refactor whole project
 Look into Integrations if possible with other software (no guarentees)
 Make length getters for types
+
+HOW TO SET UP DEV ENV
+
+1. Add this project to HIDAPI clone
+2. Develop
+
+HOW TO SET UP RELEASE BUILD FOR DEV
+
+1. ADD HIDAPI AND DLL1 as DLLs to VS project
+2. Develop
 
 
 HOW TO USE
