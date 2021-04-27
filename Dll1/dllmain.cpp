@@ -4,7 +4,8 @@
 #include "../hidapi/hidapi.h"
 #include <stdlib.h>
 #include "dllmain.h"
-
+#define ESCAPE 0x1B
+#define DELETE 0x7F
 using namespace std;
 
 BOOL APIENTRY DllMain( HMODULE hModule,
@@ -92,7 +93,102 @@ bool G600Api::write(g600char* data)
    
 }
 
+//REFACTOR THIS
+char* G600Api::getKey(char key) {
+    char* retVal = (char *) malloc(sizeof(char) * 2);
+    unsigned char tmp = 0;
+    unsigned int mask = 0x000F;
+    if (key <= 'Z' && key >= 'A') {
+        tmp = key - 'A' + 0x04;
 
+    }
+
+    if (key <= '9' && key >= '1') {
+        tmp = key - '1' + 0x1E;
+
+    }
+
+    retVal[1] = ((tmp & mask) + 0x30);
+    retVal[0] = (tmp >> 4) + 0x30;
+
+    if (key == '0') {
+        retVal[0] = '2';
+        retVal[1] = '7';
+    }
+
+    if (key == '\n') {
+        retVal[0] = '2';
+        retVal[1] = '8';
+    }
+    if (key == ESCAPE) {
+        retVal[0] = '2';
+        retVal[1] = '9';
+    }
+    if (key == '\b') {
+        retVal[0] = '2';
+        retVal[1] = 'A';
+    }
+    if (key == '\t') {
+        retVal[0] = '2';
+        retVal[1] = 'B';
+    }
+    if (key == ' ') {
+        retVal[0] = '2';
+        retVal[1] = 'C';
+    }
+    if (key == '-') {
+        retVal[0] = '2';
+        retVal[1] = 'D';
+    }
+    if (key == '=') {
+        retVal[0] = '2';
+        retVal[1] = 'E';
+    }
+    if (key == '[') {
+        retVal[0] = '2';
+        retVal[1] = 'F';
+    }
+    if (key == ']') {
+        retVal[0] = '3';
+        retVal[1] = '0';
+    }
+    if (key == '\\') {
+        retVal[0] = '3';
+        retVal[1] = '1';
+    }
+    if (key == ';') {
+        retVal[0] = '3';
+        retVal[1] = '3';
+    }
+    if (key == '\'') {
+        retVal[0] = '3';
+        retVal[1] = '4';
+    }
+    if (key == '`') {
+        retVal[0] = '3';
+        retVal[1] = '5';
+    }
+    if (key == ',') {
+        retVal[0] = '3';
+        retVal[1] = '6';
+    }
+    if (key == '.') {
+        retVal[0] = '3';
+        retVal[1] = '7';
+    }
+    if (key == '/') {
+        retVal[0] = '3';
+        retVal[1] = '8';
+    }
+    if (key == DELETE) {
+        retVal[0] = '4';
+        retVal[1] = 'C';
+    }
+
+
+    return retVal;
+
+}
 
 
 void G600Api::inject(g600char* data, inj_struct * values)
