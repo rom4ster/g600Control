@@ -119,6 +119,8 @@ API REFERENCE
 QUESTIONS? Make an issue or go here
 https://discord.gg/BRXGMF6geJ
 
+NOTE: I have sometimes MONTHS long response times on discord, if you dont get an answer there in like 1-2 days, MAKE AN ISSUE. 
+
 
 FEATURE REQUEST? Please dont make an issue right away  for that, talk with me first THEN make an issue (otherwise I will lose track of these). 
 https://discord.gg/BRXGMF6geJ
